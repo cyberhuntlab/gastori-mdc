@@ -1,5 +1,5 @@
 
-## Enhancing Incident Triage Efficiency with Azure Microsoft Defender for Cloud Attack Path Analysis and Microsoft Sentinel Integration
+## Enhancing Incident Triage Efficiency with Microsoft Defender for Cloud Attack Path Analysis and Microsoft Sentinel Integration
 ### Introduction
 If you are actively involved in the process of responding to cybersecurity incidents or work in a capacity that deals with incident response, you understand the criticality of promptly identifying and mitigating security breaches in cloud environments. Timely and accurate incident triaging is crucial to minimize the impact of potential breaches and ensure a proactive security posture. However, in many cases, security analysts are overwhelmed by the sheer volume of incidents and the manual effort required to investigate and prioritize them. To address this challenge, we have developed a solution leveraging Microsoft Defender for Cloud Attack Path Analysis into Microsoft Sentinel to streamline computer’s cyber security incident triaging and improve response times.
 
