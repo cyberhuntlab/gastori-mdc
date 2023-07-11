@@ -27,13 +27,13 @@ The integration of Microsoft Microsoft Defender for Cloud and MicrosoftMicrosoft
 ### Configuration post Deployment
 After the successful deployment of the Azure Logic App, proceed to access the newly created instance. Navigate to the "Identity" section within the Azure Logic App configuration. Here, you will find the "Azure role assignments" option. It is essential to assign the appropriate roles to ensure smooth functioning of the integration.
 
-![Image-02](img-03.png)
+![Image-03](img-03.png)
 
 Firstly, assign the "Reader" role to the Logic App for all the subscriptions from which you need to retrieve Attack Paths. This role allows the Logic App to read the necessary information without making any changes.
 
 Secondly, assign the "Microsoft Sentinel Contributor" role to the Logic App for the subscription where your Microsoft Sentinel instance is located. This role provides the required permissions for the Logic App to integrate and interact effectively with Microsoft Sentinel.
 
-![Image-02](img-04.png)
+![Image-04](img-04.png)
 
 By configuring these role assignments, you enable the Logic App to access the relevant resources and retrieve Attack Paths seamlessly, contributing to the successful enrichment of incidents and improving the incident triaging process.
 
@@ -45,7 +45,7 @@ You can set up a Microsoft Sentinel Playbook to trigger the Azure Logic App auto
 Option 2: Execute the Logic App as Needed from the Incident:
 Alternatively, you have the flexibility to manually trigger the Azure Logic App from the incident whenever required. This option is suitable for scenarios where you want to perform the triage manually or for incidents that require immediate attention and cannot rely on automated execution. By running the Logic App on-demand, you can still benefit from its functionality in enriching incidents and reducing the time needed for incident triaging.
 
-![Image-02](img-05.png)
+![Image-05](img-05.png)
 
 The choice between these options depends on your organization's specific requirements and incident response workflows. Automating the execution of the Logic App through a Microsoft Sentinel Playbook offers a more streamlined and hands-off approach, while manually triggering it provides greater control and flexibility.
 
