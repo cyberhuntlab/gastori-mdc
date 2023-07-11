@@ -10,11 +10,11 @@ Traditionally, incident triaging in cloud environments has been a time-consuming
 To overcome these challenges, we have developed an Azure Logic App that serves as an automated Azure Microsoft Sentinel playbook, enhancing the incident triaging process when the incident contains Computer Entities. The Logic App executes automatically whenever an incident involving virtual machines (VMs) is triggered. The playbook   leverages the powerful capabilities of Azure Microsoft Defender for Cloud's Attack Path Analysis feature to identify the attack paths associated with the VM involved in the incident.
 Upon execution, the playbook enriches the incident by adding a tag that confirms the VM has been identified by Azure Microsoft Defender for Cloud's Attack Path Analysis. 
 
-![Image of OverviewTab](AttackPath-Sentinel-Incident-Enrich\images\img-01.png)
+![Image of OverviewTab](img-01.png)
 
 Additionally, detailed comments are added to the incident, listing the specific attack paths identified and providing a link to the actual attack path.
 
-![Image of OverviewTab](AttackPath-Sentinel-Incident-Enrich\images\img-02.png)
+![Image of OverviewTab](img-02.png)
   
 This integration enables security analysts to quickly access relevant information, facilitating incident triaging and improving response efficiency.
 
